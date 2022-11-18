@@ -4,7 +4,7 @@ Written by Ziv Shalit, Nov 2022.
 Released into the public domain.
 */
 
-#include "AdaptiveMapping.h"
+#include <AdaptiveMapping.h>
 
 // hold values for 5 seconds
 AdaptiveMapping<> m(5000);

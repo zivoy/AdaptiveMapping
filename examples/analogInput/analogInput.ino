@@ -4,7 +4,7 @@
   Released into the public domain.
 */
 
-#include "AdaptiveMapping.h"
+#include <AdaptiveMapping.h>
 
 #define potPin A0
 
