@@ -1,6 +1,7 @@
 /*
   adaptiveMapping.h - Library for doing mapping dynamically.
-  Written by Ziv Shalit.
+  Written by Ziv Shalit, Nov 2022.
+  Released into the public domain.
 */
 
 #pragma once

@@ -1,3 +1,9 @@
+/*
+  adaptiveMapping.hpp - Library for doing mapping dynamically.
+  Written by Ziv Shalit, Nov 2022.
+  Released into the public domain.
+*/
+
 template<uint8_t Size>
 AdaptiveMapping<Size>::AdaptiveMapping(const unsigned long lifeSpan) {
   _lifeSpan = lifeSpan;
