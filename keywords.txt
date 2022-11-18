@@ -1,0 +1,8 @@
+AdaptiveMapping	KEYWORD1
+read	KEYWORD2
+map	KEYWORD2
+maximum	KEYWORD2
+minimum	KEYWORD2
+History	KEYWORD1
+val KEYWORD2
+timeSet KEYWORD2

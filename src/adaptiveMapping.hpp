@@ -79,12 +79,12 @@ void AdaptiveMapping<Size>::read(long val) {
 template<uint8_t Size>
 void AdaptiveMapping<Size>::purge(long val, unsigned long currTime) {
   for (int i = 0; i < Size - 1; i++) {
-    if (_minimumQueue[i].timeSet != 0 && (_minimumQueue[i].val >= val || (currTime - _minimumQueue[i].timeSet) > _lifeSpan)) {
+    if (_minimumQueue[i].timeSet != 0 && (_minimumQueue[i].val > val || (currTime - _minimumQueue[i].timeSet) > _lifeSpan)) {
       _minimumQueue[i].timeSet = 0;  // let it be purged
     }
 
     // if its not purged already and the current value is bigger then it and its newer then it, or it expired
-    if (_maximumQueue[i].timeSet != 0 && (_maximumQueue[i].val <= val || (currTime - _minimumQueue[i].timeSet) > _lifeSpan)) {
+    if (_maximumQueue[i].timeSet != 0 && (_maximumQueue[i].val < val || (currTime - _minimumQueue[i].timeSet) > _lifeSpan)) {
       _maximumQueue[i].timeSet = 0;  // purged it
     }
   }
