@@ -13,7 +13,7 @@ it should hold the values before they expire. Change this depending on your use 
 
 Call the map function on the object, passing it the value and the min and max you would like to map the range too.
 
-see [sample.ino](https://github.com/zivoy/AdaptiveMapping/blob/master/examples/sample/sample.ino) example for a full implementation.
+see [sample.ino](https://github.com/zivoy/AdaptiveMapping/blob/main/examples/sample/sample.ino) example for a full implementation.
 
 ## Forcing a min or max
 if you want to force a minimum or a maximum (for example, you want the lowest possible value always to be 0)
