@@ -1,6 +1,6 @@
 # Adaptive Mapping Arduino library
-### A library that makes it easier to dynamically map ranges
-This library is good for instelations that you can just leave and have the sensors always have a reasonable range without needing to manually calibrate every so often
+### A library that makes it easier to map ranges dynamically
+This library is good for installations that you can leave and have the sensors always have a reasonable range without needing to calibrate every so often manually
 
 ## Usage
 ```Arduino
@@ -8,9 +8,9 @@ AdaptiveMapping<QueueSize> mapName(DataLifeTime);
 
 mapName.map(value, mapToMin, mapToMax);
 ```
-The QueueSize defualts to 11 and I found that that is more then enough for most cases, so you can leave that empty. The DataLifeTime is the time (in milliseconds)
-it should hold the values fro before they expire, change this depending on your use case.
+The QueueSize defaults to 11, which is more than enough for most cases, so you can leave it empty. The DataLifeTime is the time (in milliseconds)
+it should hold the values before they expire. Change this depending on your use case, a small project might only need a couple of seconds or minutes, but an installation might need it to be in the hours.
 
-call the map function on the object, passing it the value and the min and max you would like to map the range to.
+Call the map function on the object, passing it the value and the min and max you would like to map the range too.
 
-see [sample.ino](https://github.com/zivoy/AdaptiveMapping/blob/master/examples/sample/sample.ino) example for a full implimentation.
+see [sample.ino](https://github.com/zivoy/AdaptiveMapping/blob/master/examples/sample/sample.ino) example for a full implementation.
