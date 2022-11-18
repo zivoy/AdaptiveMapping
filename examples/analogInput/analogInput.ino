@@ -16,6 +16,9 @@ void setup() {
 }
 
 void loop() {
+  // make 0 always be the min
+  m.read(0);
+
   int v = analogRead(potPin);
   // map the input to a range of 0 to a 100
   Serial.println(m.map(v, 0, 100));
