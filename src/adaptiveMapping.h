@@ -1,5 +1,5 @@
 /*
-  adaptiveMapping.h - Library for doing mapping dynamically.
+  AdaptiveMapping.h - Library for doing mapping dynamically.
   Written by Ziv Shalit, Nov 2022.
   Released into the public domain.
 */
@@ -38,4 +38,4 @@ private:
   void swap(History *list, uint8_t element1, uint8_t element2);
 };
 
-#include "adaptiveMapping.hpp"
+#include "AdaptiveMapping.hpp"

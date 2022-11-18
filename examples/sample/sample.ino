@@ -1,10 +1,10 @@
 /*
-adaptiveMapping - Library for doing mapping dynamically.
+AdaptiveMapping - Library for doing mapping dynamically.
 Written by Ziv Shalit, Nov 2022.
 Released into the public domain.
 */
 
-#include "adaptiveMapping.h"
+#include "AdaptiveMapping.h"
 
 // hold values for 5 seconds
 AdaptiveMapping<> m(5000);

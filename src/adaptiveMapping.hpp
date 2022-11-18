@@ -1,5 +1,5 @@
 /*
-  adaptiveMapping.hpp - Library for doing mapping dynamically.
+  AdaptiveMapping.hpp - Library for doing mapping dynamically.
   Written by Ziv Shalit, Nov 2022.
   Released into the public domain.
 */
