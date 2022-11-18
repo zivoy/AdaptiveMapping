@@ -8,7 +8,7 @@
 
 #define potPin A0
 
-// have a history queue size of 5 elements (lowers the reselution of the history) and hold for a minute
+// hold for a minute before dumping maximum
 AdaptiveMapping<5> m(60000);
 
 void setup() {
